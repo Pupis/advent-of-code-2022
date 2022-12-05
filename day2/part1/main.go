@@ -43,25 +43,8 @@ func main() {
 		fmt.Println("------")
 		roundPoint := points[temp[i]] + value[you]
 		pointSum += roundPoint
-		// fmt.Println()
+
 	}
 
 	fmt.Println(pointSum)
-
-	// biggest := 0
-	// for i := 0; i < len(temp); i++ {
-	// 	calories := strings.Split(temp[i], "\n")
-	// 	tempCalories := 0
-	// 	for j := 0; j < len(calories); j++ {
-	// 		calory, err := strconv.Atoi(calories[j])
-	// 		if err != nil {
-	// 			panic(err)
-	// 		}
-	// 		tempCalories += calory
-	// 	}
-	// 	if tempCalories > biggest {
-	// 		biggest = tempCalories
-	// 	}
-	// }
-	// fmt.Println(biggest)
 }
